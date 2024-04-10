@@ -11,8 +11,7 @@ select Item_Identifier from sql_project sp ;
 select count(Item_Identifier) from sql_project sp ;
 
 #Q4 Write an SQL query to show maximum Item Weight.
-select max(ITEM_WEIGHT) from sql_project sp ; 
-select  ITEM_WEIGHT from sql_project sp ;
+select max(ITEM_WEIGHT) from sql_project sp ;
 
 #Q5 Write an SQL query to show minimum Item Weight.
 select min(ITEM_WEIGHT)from sql_project sp ;
@@ -27,7 +26,6 @@ where Item_Fat_Content ='Low Fat';
 #Q8 Write an SQL query to show count of Item_Fat_Content WHERE Item_Fat_Content is Regular.
 select count(item_fat_content)from sql_project sp 
 where Item_Fat_Content ='Regular';
-select count(Item_Fat_Content) from sql_project sp ;
 
 #Q9 Write an SQL query to show maximum Item_MRP.
 select max(item_mrp) from sql_project sp ; 
